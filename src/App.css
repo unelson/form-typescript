@@ -1,20 +1,20 @@
-.App {
+/* .App {
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +24,55 @@
   color: white;
 }
 
-.App-link {
+/* .App-link {
   color: #61dafb;
+} */
+
+ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /* */
+/* I made a separation between the code that came with creation of the app (above) */
+/* and code I wrote (below) */
+ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /* */
+
+ p {
+  font-family: Lato;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+#root {
+  padding: 30px;
+}
+
+.register-form {
+  display: flex;
+  max-width: 100%;
+  margin: auto;
+}
+
+.is-invalid {
+  background-color: #fee6d8;
+}
+
+.is-valid {
+  background-color: #edf7e9;
+}
+.textarea {
+  min-height: 200px;
+  min-width: 100%;
+}
+
+.text-center {
+  color: rgb(20, 19, 19);
+}
+
+.label {
+  color: rgb(20, 19, 19);
+}
+
+.btn-link {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .small-inputs {
+    margin-top: 30px;
   }
 }
