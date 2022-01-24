@@ -93,5 +93,3 @@ describe('App', () => {
     });
   });
 });
-
-// I hadn't done much TDD outside of Ruby so this is my first whack at it with JS
